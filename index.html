@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/jquery.bxslider.css" />
     <title>Document</title>
   </head>
   <body>
@@ -19,34 +20,30 @@
         </ul>
       </div>
     </header>
-
-    <section class="slide__container">
-      <div class="slide__img">
-        <div class="slide__text">
-          <h2>철거라면 무엇이든지 척척 처리하는 철거박사!</h2>
-          <p>
-            다양한 철거경험과 노하우로<br />고객여러분께 신뢰를 제공해드리기
-            위해 항상 노력합니다.
-          </p>
-        </div>
-        <img
-          class="slide__left-btn"
-          src="image/arrow_left.png"
-          alt="슬라이드 버튼"
-        />
-        <img
-          class="slide__right-btn"
-          src="image/arrow__right.png"
-          alt="슬라이드 버튼"
-        />
-      </div>
-      <div class="slide__rolling">
-        <div class="rolling-item"><a href="#"></a></div>
-        <div class="rolling-item"><a href="#"></a></div>
-        <div class="rolling-item"><a href="#"></a></div>
-      </div>
+    <section class="slide">
+      <ul class="bxslider">
+        <li>
+          <div class="slide__text">
+            <h2>철거라면 무엇이든지 척척 처리하는 철거박사!</h2>
+            <p>
+              다양한 철거경험과 노하우로<br />
+              고객여러분께 신뢰를 제공해드리기 위해 항상 노력합니다.
+            </p>
+          </div>
+          <img src="image/img01.png" alt="슬라이드 이미지1" />
+        </li>
+        <li>
+          <div class="slide__text">
+            <h2>철거라면 무엇이든지 척척 처리하는 철거박사!</h2>
+            <p>
+              다양한 철거경험과 노하우로<br />
+              고객여러분께 신뢰를 제공해드리기 위해 항상 노력합니다.
+            </p>
+          </div>
+          <img src="image/img02.png" alt="슬라이드 이미지2" />
+        </li>
+      </ul>
     </section>
-
     <section class="result wrap">
       <h3 class="content__title">공사실적</h3>
       <div class="result__list">
@@ -158,29 +155,97 @@
 
     <section class="business">
       <h3 class="content__title">사업소개</h3>
-      <ul class="business__list">
-        <li class="business__item">
-          <img />
-          <p></p>
-        </li>
-        <li class="business__item">
-          <img />
-          <p></p>
-        </li>
-        <li class="business__item">
-          <img />
-          <p></p>
-        </li>
-        <li class="business__item">
-          <img />
-          <p></p>
-        </li>
-      </ul>
+      <div class="business__container wrap">
+        <ul class="business__list">
+          <li class="business__item">
+            <img src="image/icons/biz_icon1.png" />
+            <p>내부철거</p>
+          </li>
+          <li class="business__item">
+            <img src="image/icons/biz_icon2.png" />
+            <p>구조물 및 건물철거</p>
+          </li>
+          <li class="business__item">
+            <img src="image/icons/biz_icon3.png" />
+            <p>원상복구 공사</p>
+          </li>
+          <li class="business__item">
+            <img src="image/icons/biz_icon4.png" />
+            <p>폐기물처리</p>
+          </li>
+        </ul>
+        <div class="btn-center">
+          <button class="result__more">더보기</button>
+        </div>
+      </div>
     </section>
+
+    <section class="contact">
+      <div class="contact__container wrap">
+        <div class="contact__map">
+          <img src="image/photo/map.png" />
+        </div>
+        <div class="contact__info">
+          <div class="contact__inner-wrap">
+            <h2>오시는길</h2>
+            <p>고객여러분께 더 좋은 서비스를 제공해드리겠습니다.</p>
+            <ul>
+              <li class="contact__info-item">
+                <img src="image/icons/contact_icon1.png" />
+                <p class="contact__location">
+                  위치 : 인천광역시 동구 방축로83번길 23, 29동 307호(송림동)
+                </p>
+              </li>
+              <li class="contact__info-item">
+                <img src="image/icons/contact_icon2.png" />
+                <p class="contact__tel">TEL : 010-5564-3378</p>
+              </li>
+              <li class="contact__info-item">
+                <img src="image/icons/contact_icon3.png" />
+                <p class="contact__email">E-mail : twodea@naver.com</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__container wrap">
+        <div class="footer__wrap">
+          <ul class="footer__link">
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">사업소개</a></li>
+            <li><a href="#">공사실적</a></li>
+            <li><a href="#">오시는길</a></li>
+          </ul>
+          <div class="footer__info">
+            <p>철거박사</p>
+            <address>
+              <span
+                >주소 : 인천광역시 동구 방축로83번길 23, 29동
+                307호(송림동)</span
+              ><br />
+              <span>대표 : 이필수 </span>
+              <span>전화번호 : 010 -5564-3378</span>
+              <span>이메일 : twodea@naver.com</span>
+              <span>사업자등록번호 : 116-10-04940</span>
+              <br /><span>Copyright 2020 철거박사 All rights reserved.</span>
+            </address>
+          </div>
+        </div>
+        <div class="footer__logo">
+          <img src="image/foot_logo.png" />
+        </div>
+      </div>
+    </footer>
 
     <script
       src="https://kit.fontawesome.com/43d26d40d4.js"
       crossorigin="anonymous"
     ></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
