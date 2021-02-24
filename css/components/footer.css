@@ -1,0 +1,34 @@
+.footer {
+  background-color: #343437;
+  padding: 40px 0;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__link {
+  display: flex;
+}
+
+.footer__link li:not(:last-child) {
+  margin-right: 80px;
+}
+
+.footer__link li a {
+  color: #ffffff;
+}
+
+.footer__info {
+  margin-top: 42px;
+  color: #ffffff;
+}
+
+.footer__info address {
+  margin-top: 6px;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 300;
+}

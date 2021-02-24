@@ -1,0 +1,18 @@
+.slide__text {
+  position: absolute;
+  top: 210px;
+  left: 422px;
+}
+
+.slide__text h2 {
+  font-size: 44px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.slide__text p {
+  font-size: 28px;
+  color: #ffffff;
+  line-height: 36px;
+  margin-top: 26px;
+}
