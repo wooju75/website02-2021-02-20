@@ -1,0 +1,166 @@
+.sub__visual {
+  width: 100%;
+  height: 280px;
+}
+
+.bg1 {
+  background-image: url(../../image/sub/sub_visual01.jpg);
+}
+.bg2 {
+  background-image: url(../../image/sub/sub_visual02.jpg);
+}
+
+.sub__visual-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 0;
+  color: #ffffff;
+}
+
+.sub__visual-text h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.sub__visual-text p {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.path__wrap {
+  border-bottom: 1px solid #dfdfdf;
+  height: 58px;
+}
+
+.path__contain {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.path__home a {
+  display: block;
+  width: 70px;
+  line-height: 58px;
+  text-align: center;
+  border-left: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+}
+
+.path {
+  line-height: 58px;
+  border-right: 1px solid #dfdfdf;
+  width: 272px;
+}
+
+.path::after {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  content: "";
+  width: 272px;
+  height: 3px;
+  background-color: #2c3282;
+}
+
+.path a {
+  padding: 0 18px 0 30px;
+  display: block;
+  background: url(../../image/sub/path_arrow.jpg) 92% 50% no-repeat;
+  color: #000000;
+}
+
+.sub__container-area {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.sub__title {
+  text-align: center;
+  margin: 55px 0 70px 0;
+}
+
+.sub__title h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.sub__image {
+  margin-bottom: 40px;
+}
+
+.sub__company-txt {
+  text-align: center;
+}
+
+.sub__company-txt p {
+  margin-bottom: 34px;
+  line-height: 26px;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: -0.03em;
+}
+
+.sub__company-txt p:first-child {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.sub__company-txt p strong {
+  color: #363d94;
+}
+
+.sub__tab {
+  border: 1px solid #e3e3e3;
+  height: 66px;
+  margin-top: 55px;
+}
+
+.sub__tab ul {
+  display: flex;
+}
+
+.sub__tab ul a {
+  display: block;
+  width: 300px;
+  height: 66px;
+  color: #000000;
+  font-size: 20px;
+  line-height: 66px;
+  text-align: center;
+}
+
+.sub__tab ul a:first-child {
+  background-color: #2c3282;
+  color: #ffffff;
+}
+
+.sub__tab ul a:not(:last-child) {
+  border-right: 1px solid #e3e3e3;
+}
+
+.sub__real-con {
+  margin-top: 56px;
+}
+
+.tab__sub-tit {
+  font-size: 24px;
+  font-weight: 700;
+  padding-left: 36px;
+  background: url(../../image/sub/mark.png) no-repeat;
+  margin-bottom: 20px;
+  line-height: 28px;
+}
+
+.tab__cnt {
+  font-weight: 300;
+  line-height: 22px;
+  margin-bottom: 26px;
+}
+
+.group {
+  margin-top: 40px;
+}
