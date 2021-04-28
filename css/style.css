@@ -7,6 +7,9 @@
 @import "main/business.css";
 @import "main/contact.css";
 
+/* sub */
+@import "sub/sub.css";
+
 /* Components */
 @import "components/header.css";
 @import "components/footer.css";
